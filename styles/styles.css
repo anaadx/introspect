@@ -1,0 +1,522 @@
+.introduction {
+	overflow: hidden;
+}
+
+.introduction .text {
+	float: left;
+	width: calc(50% - 100px)
+}
+
+.introduction .image {
+	float: right;
+	width: 50%;
+}
+
+.introduction .image figure {
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.introduction .image figure img {
+	width: 100%;
+	height: auto;
+}
+
+.introduction .text .intro {
+	color: var(--color-secondary);
+	letter-spacing: .025em;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5em;
+	margin-bottom: 5px;
+}
+
+.introduction .text h1 {
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 1em;
+	letter-spacing: -.05em;
+	margin-bottom: 20px;
+}
+
+.introduction .text .explanation {
+	font-size: 20px;
+	line-height: 1.5em;
+	letter-spacing: -.05em;
+}
+
+.introduction .text strong {
+	color: var(--color-accent);
+}
+
+.introduction .text .intro .explanation {
+	color: var(--color-text-muted);
+	font-size: 16px;
+}
+
+.introduction .text .buttons {
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.introduction .text .buttons a {
+	border-radius: 20px;
+	margin-right: 20px;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 15px;
+	transition: var(--transition-medium);
+	float: left;
+}
+
+.introduction .text .buttons a:nth-child(1) {
+	margin-right: 10px;
+	float: left;
+	background-color: var(--color-primary);
+}
+
+.introduction .text .buttons a:nth-child(1):hover {
+	background-color: var(--color-secondary);
+}
+
+.introduction .text .buttons a:nth-child(2) {
+	float: left;
+	border: 2px solid var(--color-text-muted);
+	color: var(--color-text-page);
+}
+
+.introduction .text .buttons a:nth-child(2):hover {
+	border: 2px solid rgb(156 163 175/1)
+}
+
+.introduction,
+.whyUs,
+.cases,
+.clients,
+.questions,
+.aboutMe,
+.callToAction {
+	margin-top: 80px;
+	width: 100%;
+	padding: 0px 80px;
+}
+
+.whyUs h2 {
+	margin-top: 160px;
+}
+
+.whyUs h2 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.whyUs .whyChooseText {
+	font-size: 30px;
+	margin-bottom: 20px;
+	line-height: 1.5em;
+	color: var(--color-text-muted);
+	text-align: center;
+}
+
+.whyUs ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-row-gap: 20px;
+	gap: 20px;
+}
+
+.whyUs ul li {
+	overflow: hidden;
+	padding: 20px
+}
+
+.whyUs .whyChooseText ul li {
+	overflow: hidden;
+	padding: 20px
+}
+
+.whyUs ul li h3 {
+	font-size: 20px;
+	float: left;
+	width: 100%;
+	line-height: 1.8em;
+	margin-bottom: 5px;
+}
+
+.whyUs ul li h3:before {
+	display: block;
+	content: "";
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 10px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	background-image: url(../assets/main.png);
+}
+
+.whyUs ul li p {
+	font-size: 16px;
+	width: calc(100% - 60px);
+	float: right;
+	line-height: 1.5em;
+	color: var(--color-text-muted);
+}
+
+.cases {
+	background-color: #EFF6FF;
+	border-radius: 20px;
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+.cases h2 {
+	font-size: 48px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.cases .whyChooseText {
+	font-size: 20px;
+	color: var(--color-text-muted);
+	margin-bottom: 60px;
+	line-height: 1.3em;
+	text-align: center;
+}
+
+.cases .card {
+	overflow: hidden;
+	margin-bottom: 80px;
+}
+
+.cases .card1 figure,
+.cases .card2 .content {
+	float: left;
+}
+
+.cases .card1 .content,
+.cases .card2 figure {
+	float: right;
+}
+
+.cases .card2 {
+	overflow: hidden;
+}
+
+.cases .card img {
+	height: auto;
+	width: 100%;
+}
+
+.cases .card figure {
+	width: calc(50% - 50px);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.cases .card .content {
+	width: calc(50%);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.cases .card .content h2 {
+	font-size: 30px;
+	text-align: start;
+	margin-bottom: 20px;
+}
+
+.cases .card .content .title {
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+
+.cases .card .content .title h3 {
+	font-size: 24px;
+}
+
+.cases .card .content .description h3 {
+	font-size: 18px;
+	line-height: 1.5em;
+	margin-bottom: 10px;
+}
+
+.cases .card .content .description:nth-child(2) {
+	margin-bottom: 40px;
+}
+
+.cases .card .content .description p {
+	font-size: 18px;
+	line-height: 1.5em;
+	color: var(--color-text-muted);
+	margin-left: 38px;
+}
+
+.cases .description h3:before {
+	display: block;
+	content: "";
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 10px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	background-image: url(../assets/main.png);
+}
+
+.clients h2 {
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 36px;
+}
+
+.clients .whyChooseText {
+	font-size: 20px;
+	color: var(--color-text-muted);
+	margin-bottom: 60px;
+	line-height: 1.3em;
+	text-align: center;
+}
+
+.clients ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;
+	grid-row-gap: 20px
+}
+
+.clients ul li {
+	height: 300px;
+	padding: 15px;
+	-webkit-box-shadow: 5px 10px 23px 5px rgba(0, 0, 0, 0.18);
+	-moz-box-shadow: 5px 10px 23px 5px rgba(0, 0, 0, 0.18);
+	box-shadow: 5px 10px 23px 5px rgba(0, 0, 0, 0.18);
+	border-radius: 5px;
+	position: relative;
+	padding-bottom: 100px;
+}
+
+.clients ul li p:nth-child(1) {
+	font-size: 16px;
+	color: var(--color-text-muted);
+	line-height: 1.5em;
+}
+
+.clients ul li .lastContent {
+	padding: 15px;
+	border-top: 1px solid #EFF6FF;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: calc(100% - 30px);
+	left: 15px;
+	overflow: hidden;
+}
+
+.clients ul li .lastContent {
+	padding: 15px;
+	border-top: 1px solid #EFF6FF;
+	position: absolute;
+	bottom: 0px;
+	overflow: hidden;
+}
+
+.clients ul li figure {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	float: left;
+	margin-right: 10px;
+}
+
+.clients ul li img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.clients ul li .lastContent div {
+	float: left;
+	width: calc(100% - 60px);
+}
+
+.clients ul li .lastContent h3 {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.clients ul li .lastContent p {
+	color: var(--color-text-muted);
+	line-height: 1.3em;
+	font-size: 12px;
+}
+
+.callToAction div {
+	width: 700px;
+	text-align: center;
+	margin: 0 auto;
+	height: max-content;
+	border-radius: 5px;
+	-webkit-box-shadow: 5px 10px 23px 5px rgba(0, 0, 0, 0.18);
+	-moz-box-shadow: 5px 10px 23px 5px rgba(0, 0, 0, 0.18);
+	box-shadow: 5px 10px 23px 5px rgba(0, 0, 0, 0.18);
+	padding: 20px
+}
+
+.callToAction div h2 {
+	font-size: 32px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.callToAction div p {
+	color: var(--color-text-muted);
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.callToAction div a {
+	border-radius: 20px;
+	display: block;
+	margin: 0 auto;
+	width: max-content;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 15px;
+	transition: var(--transition-medium);
+	background-color: var(--color-primary);
+}
+
+.callToAction div a:hover {
+	background-color: var(--color-secondary);
+}
+
+.questions {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: #EFF6FF;
+	border-radius: 20px;
+}
+
+.questions h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.questions h3 {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.questions h3:before {
+	display: block;
+	content: "";
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-right: 10px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	background-image: url(../assets/main.png);
+}
+
+.questions .grid {
+	display: grid;
+	gap: 30px;
+	grid-row-gap: 30px;
+	grid-template-columns: 1fr 1fr;
+}
+
+.questions p {
+	width: calc(100% - 25px);
+	margin-left: 25px;
+	line-height: 1.3em;
+	color: var(--color-text-muted);
+}
+
+.aboutMe {
+	overflow: hidden;
+}
+
+.aboutMe h2 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.aboutMe div {
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 1.5em;
+	float: left;
+	width: calc(50% - 50px);
+}
+
+.aboutMe p {
+	font-size: 18px;
+	margin-bottom: 20px;
+	line-height: 1.5em;
+}
+
+.aboutMe figure {
+	overflow: hidden;
+	border-radius: 10px;
+	width: calc(50%);
+	float: right;
+}
+
+.aboutMe figure img {
+	width: 100%;
+	height: auto;
+}
+
+footer {
+	padding: 20px;
+}
+
+footer h4 {
+	font-size: 16px;
+}
+
+footer h4 a {
+	text-decoration: none;
+	transition: var(--transition-medium);
+	color: #2563eb;
+}
+
+footer h4 a:hover {
+	color: blue;
+}
+
+footer h4:before {
+	display: block;
+	content: "";
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 10px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	background-image: url(../assets/main.png);
+}
