@@ -1,0 +1,98 @@
+@media (max-width: 1024px) {
+	.introduction .text {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.introduction .image {
+		float: none;
+		width: 100%;
+	}
+
+	.introduction .text .buttons {
+		margin: 0 auto;
+		margin-top: 20px;
+		width: calc(100% - 60px);
+		margin-bottom: 40px;
+	}
+
+	.introduction .text .buttons a {
+		float: none;
+		margin-right: 0px;
+	}
+
+	.introduction .text .buttons a:nth-child(1) {
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
+
+	.introduction,
+	.whyUs,
+	.cases,
+	.clients,
+	.questions,
+	.aboutMe,
+	.callToAction {
+		padding: 0px 20px;
+		margin-top: 40px;
+	}
+
+	.whyUs h2 {
+		margin-top: 60px;
+	}
+
+	.whyUs ul {
+		grid-template-columns: 1fr;
+	}
+
+	.cases {
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+
+	.cases .card {
+		flex-direction: column;
+		margin-bottom: 40px;
+	}
+
+	.cases .card1 {
+		flex-direction: column-reverse;
+	}
+
+	.cases .card .content {
+		margin-bottom: 40px;
+	}
+
+	.cases .card .content,
+	.cases .card figure {
+		width: 100%;
+	}
+
+	.clients ul {
+		grid-template-columns: 1fr;
+	}
+
+	.callToAction div {
+		width: 100%;
+	}
+
+	.questions {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.questions .grid {
+		grid-template-columns: 1fr;
+	}
+
+	.aboutMe div,
+	.aboutMe figure {
+		float: none;
+		width: 100%;
+	}
+
+	.aboutMe {
+		flex-direction: column-reverse;
+	}
+}

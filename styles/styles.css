@@ -67,6 +67,7 @@
 	text-align: center;
 	cursor: pointer;
 	text-decoration: none;
+	display: block;
 	font-size: 16px;
 	padding: 15px;
 	transition: var(--transition-medium);
@@ -75,7 +76,6 @@
 
 .introduction .text .buttons a:nth-child(1) {
 	margin-right: 10px;
-	float: left;
 	background-color: var(--color-primary);
 }
 
@@ -84,7 +84,6 @@
 }
 
 .introduction .text .buttons a:nth-child(2) {
-	float: left;
 	border: 2px solid var(--color-text-muted);
 	color: var(--color-text-page);
 }
@@ -193,18 +192,9 @@
 }
 
 .cases .card {
-	overflow: hidden;
+	display: flex;
 	margin-bottom: 80px;
-}
-
-.cases .card1 figure,
-.cases .card2 .content {
-	float: left;
-}
-
-.cases .card1 .content,
-.cases .card2 figure {
-	float: right;
+	justify-content: space-between;
 }
 
 .cases .card2 {
@@ -454,6 +444,8 @@
 
 .aboutMe {
 	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
 }
 
 .aboutMe h2 {
@@ -467,7 +459,6 @@
 	margin-top: 20px;
 	margin-bottom: 20px;
 	line-height: 1.5em;
-	float: left;
 	width: calc(50% - 50px);
 }
 
@@ -481,7 +472,6 @@
 	overflow: hidden;
 	border-radius: 10px;
 	width: calc(50%);
-	float: right;
 }
 
 .aboutMe figure img {
