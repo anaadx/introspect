@@ -69,6 +69,7 @@
 	cursor: pointer;
 	text-decoration: none;
 	display: block;
+	width: max-content;
 	font-size: var(--font9);
 	padding: 20px;
 	transition: var(--transition-medium);
