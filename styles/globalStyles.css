@@ -61,16 +61,16 @@ body {
 @media (max-width: 1024px) {
 
 	:root {
-		--font1: calc(60px * 0.50);
-		--font2: calc(48px * 0.50);
-		--font3: calc(36px * 0.60);
-		--font4: calc(32px * 0.60);
-		--font5: calc(30px * 0.60);
-		--font6: calc(24px * 0.60);
-		--font7: calc(20px * 0.60);
-		--font8: calc(18px * 0.60);
-		--font9: calc(16px * 0.60);
-		--font10: calc(12px * 0.60);
+		--font1: calc(60px * 0.90);
+		--font2: calc(48px * 0.90);
+		--font3: calc(36px * 0.85);
+		--font4: calc(32px * 0.85);
+		--font5: calc(30px * 0.85);
+		--font6: calc(24px * 0.85);
+		--font7: calc(20px * 0.85);
+		--font8: calc(18px * 0.85);
+		--font9: calc(16px * 0.85);
+		--font10: calc(12px * 0.85);
 	}
 
 	.section-title {
