@@ -61,8 +61,8 @@ body {
 @media (max-width: 1024px) {
 
 	:root {
-		--font1: calc(60px * 0.90);
-		--font2: calc(48px * 0.90);
+		--font1: calc(60px * 0.60);
+		--font2: calc(48px * 0.80);
 		--font3: calc(36px * 0.85);
 		--font4: calc(32px * 0.85);
 		--font5: calc(30px * 0.85);
