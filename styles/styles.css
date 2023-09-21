@@ -1,5 +1,6 @@
 .introduction {
 	overflow: hidden;
+	margin-bottom: 80px;
 }
 
 .introduction .text {
@@ -27,22 +28,23 @@
 	letter-spacing: .025em;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: var(--font9);
 	line-height: 1.5em;
 	margin-bottom: 5px;
 }
 
 .introduction .text h1 {
-	font-size: 60px;
+	font-size: var(--font1);
 	font-weight: bold;
 	line-height: 1em;
 	letter-spacing: -.05em;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 .introduction .text .explanation {
-	font-size: 20px;
+	font-size: var(--font7);
 	line-height: 1.5em;
+	color: var(--color-text-muted);
 	letter-spacing: -.05em;
 }
 
@@ -52,7 +54,7 @@
 
 .introduction .text .intro .explanation {
 	color: var(--color-text-muted);
-	font-size: 16px;
+	font-size: var(--font9);
 }
 
 .introduction .text .buttons {
@@ -61,35 +63,20 @@
 }
 
 .introduction .text .buttons a {
-	border-radius: 20px;
-	margin-right: 20px;
+	border-radius: 25px;
 	color: white;
 	text-align: center;
 	cursor: pointer;
 	text-decoration: none;
 	display: block;
-	font-size: 16px;
-	padding: 15px;
+	font-size: var(--font9);
+	padding: 20px;
 	transition: var(--transition-medium);
-	float: left;
-}
-
-.introduction .text .buttons a:nth-child(1) {
-	margin-right: 10px;
 	background-color: var(--color-primary);
 }
 
-.introduction .text .buttons a:nth-child(1):hover {
+.introduction .text .buttons a:hover {
 	background-color: var(--color-secondary);
-}
-
-.introduction .text .buttons a:nth-child(2) {
-	border: 2px solid var(--color-text-muted);
-	color: var(--color-text-page);
-}
-
-.introduction .text .buttons a:nth-child(2):hover {
-	border: 2px solid rgb(156 163 175/1)
 }
 
 .introduction,
@@ -101,23 +88,32 @@
 .callToAction {
 	margin-top: 80px;
 	width: 100%;
-	padding: 0px 80px;
+	padding: 0px 60px;
+}
+
+.whyUs {
+	padding: 0px 200px;
+	margin: 0 auto;
 }
 
 .whyUs h2 {
-	margin-top: 160px;
-}
-
-.whyUs h2 {
-	font-size: 30px;
-	margin-bottom: 20px;
+	font-size: var(--font3);
 	text-align: center;
+	font-weight: bold;
+}
+
+.whyUs h3 {
+	font-size: var(--font7);
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 .whyUs .whyChooseText {
-	font-size: 30px;
-	margin-bottom: 20px;
+	font-size: var(--font7);
 	line-height: 1.5em;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	width: calc(100% - 100px);
 	color: var(--color-text-muted);
 	text-align: center;
 }
@@ -125,13 +121,12 @@
 .whyUs ul {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-row-gap: 20px;
-	gap: 20px;
+	grid-row-gap: 40px;
+	gap: 40px;
 }
 
 .whyUs ul li {
 	overflow: hidden;
-	padding: 20px
 }
 
 .whyUs .whyChooseText ul li {
@@ -140,11 +135,11 @@
 }
 
 .whyUs ul li h3 {
-	font-size: 20px;
+	font-size: var(--font7);
 	float: left;
 	width: 100%;
 	line-height: 1.8em;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 }
 
 .whyUs ul li h3:before {
@@ -154,7 +149,7 @@
 	height: 48px;
 	border-radius: 50%;
 	float: left;
-	margin-right: 10px;
+	margin-right: 15px;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
@@ -162,8 +157,8 @@
 }
 
 .whyUs ul li p {
-	font-size: 16px;
-	width: calc(100% - 60px);
+	font-size: var(--font9);
+	width: calc(100% - 65px);
 	float: right;
 	line-height: 1.5em;
 	color: var(--color-text-muted);
@@ -172,19 +167,18 @@
 .cases {
 	background-color: #EFF6FF;
 	border-radius: 20px;
+	padding: 0 80px;
 	padding-top: 80px;
-	padding-bottom: 60px;
 }
 
 .cases h2 {
-	font-size: 48px;
-	margin-bottom: 20px;
+	font-size: var(--font2);
 	text-align: center;
 	font-weight: bold;
 }
 
 .cases .whyChooseText {
-	font-size: 20px;
+	font-size: var(--font7);
 	color: var(--color-text-muted);
 	margin-bottom: 60px;
 	line-height: 1.3em;
@@ -193,7 +187,7 @@
 
 .cases .card {
 	display: flex;
-	margin-bottom: 80px;
+	padding-bottom: 80px;
 	justify-content: space-between;
 }
 
@@ -219,22 +213,22 @@
 }
 
 .cases .card .content h2 {
-	font-size: 30px;
+	font-size: var(--font5);
 	text-align: start;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 .cases .card .content .title {
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 	font-weight: bold;
 }
 
 .cases .card .content .title h3 {
-	font-size: 24px;
+	font-size: var(--font6);
 }
 
 .cases .card .content .description h3 {
-	font-size: 18px;
+	font-size: var(--font8);
 	line-height: 1.5em;
 	margin-bottom: 10px;
 }
@@ -244,7 +238,7 @@
 }
 
 .cases .card .content .description p {
-	font-size: 18px;
+	font-size: var(--font8);
 	line-height: 1.5em;
 	color: var(--color-text-muted);
 	margin-left: 38px;
@@ -264,15 +258,18 @@
 	background-image: url(../assets/main.png);
 }
 
+.clients {
+	padding: 0 250px;
+}
+
 .clients h2 {
 	font-weight: bold;
-	margin-bottom: 20px;
 	text-align: center;
-	font-size: 36px;
+	font-size: var(--font3);
 }
 
 .clients .whyChooseText {
-	font-size: 20px;
+	font-size: var(--font7);
 	color: var(--color-text-muted);
 	margin-bottom: 60px;
 	line-height: 1.3em;
@@ -298,7 +295,7 @@
 }
 
 .clients ul li p:nth-child(1) {
-	font-size: 16px;
+	font-size: var(--font9);
 	color: var(--color-text-muted);
 	line-height: 1.5em;
 }
@@ -343,14 +340,14 @@
 }
 
 .clients ul li .lastContent h3 {
-	font-size: 16px;
+	font-size: var(--font9);
 	margin-bottom: 10px;
 }
 
 .clients ul li .lastContent p {
 	color: var(--color-text-muted);
 	line-height: 1.3em;
-	font-size: 12px;
+	font-size: var(--font10);
 }
 
 .callToAction div {
@@ -366,19 +363,20 @@
 }
 
 .callToAction div h2 {
-	font-size: 32px;
-	margin-bottom: 20px;
+	font-size: var(--font4);
+	margin-bottom: 25px;
 	font-weight: bold;
 }
 
 .callToAction div p {
 	color: var(--color-text-muted);
-	font-size: 20px;
-	margin-bottom: 20px;
+	font-size: var(--font7);
+	margin-bottom: 25px;
+	line-height: 1.3em;
 }
 
 .callToAction div a {
-	border-radius: 20px;
+	border-radius: 25px;
 	display: block;
 	margin: 0 auto;
 	width: max-content;
@@ -386,8 +384,8 @@
 	text-align: center;
 	cursor: pointer;
 	text-decoration: none;
-	font-size: 16px;
-	padding: 15px;
+	font-size: var(--font9);
+	padding: 20px;
 	transition: var(--transition-medium);
 	background-color: var(--color-primary);
 }
@@ -404,7 +402,7 @@
 }
 
 .questions h2 {
-	font-size: 36px;
+	font-size: var(--font3);
 	margin-bottom: 40px;
 	text-align: center;
 	font-weight: bold;
@@ -445,26 +443,26 @@
 .aboutMe {
 	overflow: hidden;
 	display: flex;
+	padding: 0px 80px;
 	justify-content: space-between;
 }
 
 .aboutMe h2 {
-	font-size: 30px;
-	margin-bottom: 20px;
+	font-size: var(--font5);
 	font-weight: bold;
 }
 
 .aboutMe div {
-	font-size: 18px;
-	margin-top: 20px;
+	font-size: var(--font8);
+	margin-top: 100px;
 	margin-bottom: 20px;
 	line-height: 1.5em;
 	width: calc(50% - 50px);
 }
 
 .aboutMe p {
-	font-size: 18px;
-	margin-bottom: 20px;
+	font-size: var(--font8);
+	margin-bottom: 40px;
 	line-height: 1.5em;
 }
 
@@ -484,7 +482,7 @@ footer {
 }
 
 footer h4 {
-	font-size: 16px;
+	font-size: var(--font9);
 }
 
 footer h4 a {

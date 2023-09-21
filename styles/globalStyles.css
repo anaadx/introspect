@@ -17,6 +17,17 @@
 	--transition-fast: all 500ms;
 	--transition-medium: all 1s;
 	--transition-long: all 1.5s;
+
+	--font1: 60px;
+	--font2: 48px;
+	--font3: 36px;
+	--font4: 32px;
+	--font5: 30px;
+	--font6: 24px;
+	--font7: 20px;
+	--font8: 18px;
+	--font9: 16px;
+	--font10: 12px;
 }
 
 .dark {
@@ -34,7 +45,6 @@
 	--color-bg-page: var(--color-bg-page-dark);
 }
 
-
 * {
 	box-sizing: border-box;
 	font-family: var(--font-sans);
@@ -44,18 +54,26 @@ body {
 	width: 100%;
 }
 
-.whyUs {
-	margin-top: 80px;
-}
-
-.whyUs h2 {
-	font-size: 36px;
-	font-weight: bold;
+.section-title {
 	margin-bottom: 20px;
 }
 
-.whyUs h3 {
-	font-size: 36px;
-	font-weight: bold;
-	margin-bottom: 20px;
+@media (max-width: 1024px) {
+
+	:root {
+		--font1: calc(60px * 0.60);
+		--font2: calc(48px * 0.60);
+		--font3: calc(36px * 0.75);
+		--font4: calc(32px * 0.75);
+		--font5: calc(30px * 0.75);
+		--font6: calc(24px * 0.75);
+		--font7: calc(20px * 0.75);
+		--font8: calc(18px * 0.75);
+		--font9: calc(16px * 0.75);
+		--font10: calc(12px * 0.75);
+	}
+
+	.section-title {
+		margin-bottom: 10px;
+	}
 }
