@@ -226,6 +226,7 @@
 
 .cases .card .content .title h3 {
 	font-size: var(--font6);
+	line-height: 1.5em;
 }
 
 .cases .card .content .description h3 {
