@@ -140,4 +140,8 @@
 	.whyUs .whyChooseText {
 		width: 100%;
 	}
+
+	.introduction .text .buttons a {
+		width: 100%;
+	}
 }
