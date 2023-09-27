@@ -22,11 +22,24 @@
 .introduction .image figure {
 	overflow: hidden;
 	border-radius: 10px;
+	position: relative;
 }
 
 .introduction .image figure img {
 	width: 100%;
 	height: auto;
+}
+
+.introduction .image figure .gif {
+	height: 7%;
+	width: 8%;
+	position: absolute;
+	top: 40%;
+	right: 65%;
+	background-image: url(../assets/psi.gif);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
 }
 
 .introduction .text .intro {
