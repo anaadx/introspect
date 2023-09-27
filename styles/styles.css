@@ -31,11 +31,11 @@
 }
 
 .introduction .image figure .gif {
-	height: 7%;
-	width: 8%;
+	height: 6%;
+	width: 6%;
 	position: absolute;
-	top: 40%;
-	right: 65%;
+	top: 39%;
+	right: 53.5%;
 	background-image: url(../assets/psi.gif);
 	background-repeat: no-repeat;
 	background-size: 100%;
