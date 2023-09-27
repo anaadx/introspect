@@ -1,5 +1,12 @@
 @media (max-width: 1024px) {
 
+	.main-logo {
+		margin-left: -12px;
+		height: 65px;
+		width: 65px;
+
+	}
+
 	.introduction .text {
 		float: none;
 		width: 100%;
@@ -18,13 +25,43 @@
 	.introduction .text .buttons {
 		margin: 0 auto;
 		margin-top: 20px;
-		width: calc(100% - 60px);
+
+		width: calc(100% - 40%);
 		margin-bottom: 40px;
+		font-size: 13px;
+		padding-left: 20px;
+		padding-right: 20px;
+		line-height: 22px;
 	}
 
-	.introduction .text .buttons a {
-		float: none;
-		margin-right: 0px;
+
+
+	.button-2 {
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 20px;
+		font-size: 12px;
+		border-radius: 16px;
+		color: white;
+		text-align: center;
+		cursor: pointer;
+		text-decoration: none;
+		display: block;
+		width: max-content;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top:20px;
+		padding-bottom:20px;
+		
+		background: rgb(63,94,251);
+		background: linear-gradient(270deg, #7B5CF5 21.09%, rgba(0, 10, 255, 0.85) 119.52%);
+	
+		transition: transform .1s;
+		border: none;
+	
+		letter-spacing: 3px;
+		
+	
 	}
 
 	.introduction,
@@ -96,8 +133,8 @@
 	}
 
 	.whyUs ul li h3:before {
-		width: 30px;
-		height: 30px;
+		width: 40px;
+		height: 40px;
 	}
 
 	.whyUs ul li p {
@@ -145,3 +182,15 @@
 		width: 100%;
 	}
 }
+
+
+@media (max-width: 700px) {
+	
+	.introduction .text .buttons {
+		width: calc(100% - 60px);
+		
+		
+
+	}
+
+	}

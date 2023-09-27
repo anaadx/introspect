@@ -1,6 +1,11 @@
+.main-logo {
+	margin-bottom: 20px;
+	margin-left: 8px;
+}
 .introduction {
 	overflow: hidden;
 	margin-bottom: 80px;
+	padding-top: 100px;
 }
 
 .introduction .text {
@@ -31,6 +36,7 @@
 	font-size: var(--font9);
 	line-height: 1.5em;
 	margin-bottom: 5px;
+	margin-top: -15px;
 }
 
 .introduction .text h1 {
@@ -39,6 +45,7 @@
 	line-height: 1em;
 	letter-spacing: -.05em;
 	margin-bottom: 15px;
+	
 }
 
 .introduction .text .explanation {
@@ -49,36 +56,201 @@
 }
 
 .introduction .text strong {
-	color: var(--color-accent);
+	color: black;
+
 }
+
+.sec {
+	background: 
+    linear-gradient(to right, rgba(212, 202, 255, 1), rgba(212, 202, 255, 1)),
+    linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  
+  }
+  
+  .sec:hover, .sec:focus {
+	background-size: 0 0.1em, 100% 0.1em;
+  }
 
 .introduction .text .intro .explanation {
 	color: var(--color-text-muted);
 	font-size: var(--font9);
+	
 }
 
 .introduction .text .buttons {
 	overflow: hidden;
 	margin-top: 20px;
+	font-size: 15px
+	
+
 }
 
-.introduction .text .buttons a {
-	border-radius: 25px;
+a {
+	color: white;
+	text-decoration: none;
+}
+
+button {
+	border-radius: 16px;
 	color: white;
 	text-align: center;
 	cursor: pointer;
 	text-decoration: none;
 	display: block;
 	width: max-content;
-	font-size: var(--font9);
-	padding: 20px;
-	transition: var(--transition-medium);
-	background-color: var(--color-primary);
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top:20px;
+	padding-bottom:20px;
+	
+	background: rgb(63,94,251);
+	background: linear-gradient(270deg, #7B5CF5 21.09%, rgba(0, 10, 255, 0.85) 119.52%);
+
+	transition: transform .1s;
+	border: none;
+
+	letter-spacing: .2rem;
+
+
+
 }
 
-.introduction .text .buttons a:hover {
-	background-color: var(--color-secondary);
+button:hover {
+	opacity: 0.8;
+	transform: scale(1.1);
+	border-radius: 16px;	
+	
 }
+
+.button-2 {
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 20px;
+	font-size: 13px;
+	border-radius: 16px;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	display: block;
+	width: max-content;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top:25px;
+	padding-bottom:25px;
+	
+	background: rgb(63,94,251);
+	background: linear-gradient(270deg, #7B5CF5 21.09%, rgba(0, 10, 255, 0.85) 119.52%);
+
+	transition: transform .1s;
+	border: none;
+
+	letter-spacing: 3px;
+
+
+
+
+}
+
+.button-2:hover {
+
+	opacity: 0.8;
+	transform: scale(1.1);
+	border-radius: 16px;	
+
+
+}
+
+.estrategia:before {
+	display: block;
+	content: "";
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 15px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	background-image: url(../assets/icon1.png);
+}
+
+.design-artesanal:before {
+	display: block;
+	content: "";
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 15px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	background-image: url(../assets/icon2.png);
+}
+
+.branding:before {
+	display: block;
+	content: "";
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 15px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	background-image: url(../assets/icon3.png);
+}
+
+.seo:before {
+	display: block;
+	content: "";
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 15px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	background-image: url(../assets/icon4.png);
+}
+
+.integracao:before {
+	display: block;
+	content: "";
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 15px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	background-image: url(../assets/icon5.png);
+}
+
+.trafego:before {
+	display: block;
+	content: "";
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 15px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	background-image: url(../assets/icon6.png);
+}
+
+
+
 
 .introduction,
 .whyUs,
@@ -90,6 +262,7 @@
 	margin-top: 80px;
 	width: 100%;
 	padding: 0px 60px;
+	
 }
 
 .whyUs {
@@ -143,19 +316,6 @@
 	margin-bottom: 0px;
 }
 
-.whyUs ul li h3:before {
-	display: block;
-	content: "";
-	width: 48px;
-	height: 48px;
-	border-radius: 50%;
-	float: left;
-	margin-right: 15px;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center;
-	background-image: url(../assets/main.png);
-}
 
 .whyUs ul li p {
 	font-size: var(--font9);
@@ -257,7 +417,7 @@
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
-	background-image: url(../assets/main.png);
+	background-image: url(../assets/icon-check.png);
 }
 
 .clients {
@@ -357,44 +517,26 @@
 	text-align: center;
 	margin: 0 auto;
 	height: max-content;
-	border-radius: 5px;
-	-webkit-box-shadow: 5px 10px 23px 5px rgba(0, 0, 0, 0.18);
-	-moz-box-shadow: 5px 10px 23px 5px rgba(0, 0, 0, 0.18);
-	box-shadow: 5px 10px 23px 5px rgba(0, 0, 0, 0.18);
-	padding: 20px
+	border-radius: 12px;
+
+	padding: 30px;
+	padding-bottom: 30px;
+	position: relative;
 }
 
 .callToAction div h2 {
 	font-size: var(--font4);
-	margin-bottom: 25px;
+	margin-bottom: 18px;
 	font-weight: bold;
 }
 
 .callToAction div p {
 	color: var(--color-text-muted);
 	font-size: var(--font7);
-	margin-bottom: 25px;
+	margin-bottom: -30px;
 	line-height: 1.3em;
 }
 
-.callToAction div a {
-	border-radius: 25px;
-	display: block;
-	margin: 0 auto;
-	width: max-content;
-	color: white;
-	text-align: center;
-	cursor: pointer;
-	text-decoration: none;
-	font-size: var(--font9);
-	padding: 20px;
-	transition: var(--transition-medium);
-	background-color: var(--color-primary);
-}
-
-.callToAction div a:hover {
-	background-color: var(--color-secondary);
-}
 
 .questions {
 	padding-top: 80px;
@@ -418,14 +560,15 @@
 .questions h3:before {
 	display: block;
 	content: "";
-	width: 15px;
-	height: 15px;
+	width: 22px;
+	height: 22px;
 	float: left;
 	margin-right: 10px;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
-	background-image: url(../assets/main.png);
+	background-image: url(../assets/icone-seta.svg);
+	filter: invert(40%) sepia(44%) saturate(5875%) hue-rotate(236deg) brightness(100%) contrast(93%);
 }
 
 .questions .grid {
@@ -480,21 +623,29 @@
 }
 
 footer {
-	padding: 20px;
+	padding: 40px;
+	margin-top:40px;
+	
+	justify-content: center;
+	display: flex;
 }
 
 footer h4 {
 	font-size: var(--font9);
+
 }
 
 footer h4 a {
+	font-weight: 900;
 	text-decoration: none;
-	transition: var(--transition-medium);
-	color: #2563eb;
+	
+	color: black;
+
 }
 
 footer h4 a:hover {
-	color: blue;
+	color: #7B5CF5;
+	
 }
 
 footer h4:before {
@@ -508,5 +659,5 @@ footer h4:before {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
-	background-image: url(../assets/main.png);
+	background-image: url(../assets/logo-insta.png);
 }
