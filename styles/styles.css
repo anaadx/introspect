@@ -292,6 +292,7 @@ button:hover {
 .cases .card img {
 	height: auto;
 	width: 100%;
+	object-fit: cover;
 }
 
 .cases .card figure {
@@ -575,4 +576,78 @@ footer h4 a {
 
 footer h4 a:hover {
 	color: #7B5CF5;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+	display: block;
+	height: auto;
+	width: 100%;
+	height: auto;
+	max-height: calc(100vh - 180px);
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+.modalWrapper {
+	height: max-content;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	display: block;
+	position: absolute;
+	width: 500px;
+}
+
+.carousel-projects .item {
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	background-color: black
+}
+
+.closeImg {
+	position: absolute;
+	font-size: var(--font1);
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	top: -20px;
+	right: 0px;
+	background-color: transparent;
+}
+
+.image-text {
+	margin-top: 10px;
+	font-size: 26px;
+	margin-top: 20px;
+	font-family: var(--font1);
+	color: white;
+}
+
+.image-text span {
+	text-transform: uppercase;
+}
+
+.modalWrapper h4 {
+	color: white;
+	margin-bottom: 20px;
+	font-family: var(--font1);
+	font-size: 24px;
+}
+
+.modal .owl-carousel .owl-stage-outer {
+	overflow: visible;
 }
