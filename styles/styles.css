@@ -143,15 +143,12 @@ button:hover {
 }
 
 .button-2:hover {
-
 	opacity: 0.8;
 	transform: scale(1.1);
 	border-radius: 16px;
-
-
 }
 
-.estrategia:before {
+.whyUs ul li h3:before {
 	display: block;
 	content: "";
 	width: 48px;
@@ -160,78 +157,31 @@ button:hover {
 	float: left;
 	margin-right: 15px;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	background-position: center;
+}
+
+.whyUs ul li .estrategia:before {
 	background-image: url(../assets/icon1.png);
 }
 
-.design-artesanal:before {
-	display: block;
-	content: "";
-	width: 48px;
-	height: 48px;
-	border-radius: 50%;
-	float: left;
-	margin-right: 15px;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center;
+.whyUs ul li .design-artesanal:before {
 	background-image: url(../assets/icon2.png);
 }
 
-.branding:before {
-	display: block;
-	content: "";
-	width: 48px;
-	height: 48px;
-	border-radius: 50%;
-	float: left;
-	margin-right: 15px;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center;
+.whyUs ul li .branding:before {
 	background-image: url(../assets/icon3.png);
 }
 
-.seo:before {
-	display: block;
-	content: "";
-	width: 48px;
-	height: 48px;
-	border-radius: 50%;
-	float: left;
-	margin-right: 15px;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center;
+.whyUs ul li .seo:before {
 	background-image: url(../assets/icon4.png);
 }
 
-.integracao:before {
-	display: block;
-	content: "";
-	width: 48px;
-	height: 48px;
-	border-radius: 50%;
-	float: left;
-	margin-right: 15px;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center;
+.whyUs ul li .integracao:before {
 	background-image: url(../assets/icon5.png);
 }
 
-.trafego:before {
-	display: block;
-	content: "";
-	width: 48px;
-	height: 48px;
-	border-radius: 50%;
-	float: left;
-	margin-right: 15px;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center;
+.whyUs ul li .trafego:before {
 	background-image: url(../assets/icon6.png);
 }
 
@@ -522,8 +472,7 @@ button:hover {
 
 
 .questions {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding: 80px 160px;
 	background-color: #EFF6FF;
 	border-radius: 20px;
 }
@@ -537,7 +486,9 @@ button:hover {
 
 .questions h3 {
 	margin-bottom: 10px;
+	width: calc(100% - 32px);
 	font-weight: bold;
+	margin-left: 32px;
 }
 
 .questions h3:before {
@@ -546,7 +497,7 @@ button:hover {
 	width: 22px;
 	height: 22px;
 	float: left;
-	margin-right: 10px;
+	margin-left: -32px;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
@@ -562,8 +513,8 @@ button:hover {
 }
 
 .questions p {
-	width: calc(100% - 25px);
-	margin-left: 25px;
+	width: calc(100% - 32px);
+	margin-left: 32px;
 	line-height: 1.3em;
 	color: var(--color-text-muted);
 }
@@ -624,18 +575,4 @@ footer h4 a {
 
 footer h4 a:hover {
 	color: #7B5CF5;
-}
-
-footer h4:before {
-	display: block;
-	content: "";
-	width: 12px;
-	height: 12px;
-	border-radius: 50%;
-	float: left;
-	margin-right: 10px;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center;
-	background-image: url(../assets/logo-insta.png);
 }

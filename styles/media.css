@@ -50,18 +50,18 @@
 		width: max-content;
 		padding-left: 20px;
 		padding-right: 20px;
-		padding-top:20px;
-		padding-bottom:20px;
-		
-		background: rgb(63,94,251);
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+		background: rgb(63, 94, 251);
 		background: linear-gradient(270deg, #7B5CF5 21.09%, rgba(0, 10, 255, 0.85) 119.52%);
-	
+
 		transition: transform .1s;
 		border: none;
-	
+
 		letter-spacing: 3px;
-		
-	
+
+
 	}
 
 	.introduction,
@@ -85,6 +85,9 @@
 
 	.cases .card {
 		flex-direction: column;
+	}
+
+	.cases .card:last-child {
 		padding-bottom: 40px;
 	}
 
@@ -138,7 +141,7 @@
 	}
 
 	.whyUs ul li p {
-		width: calc(100% - 45px);
+		width: calc(100% - 55px);
 	}
 
 	.cases .whyChooseText {
@@ -185,12 +188,12 @@
 
 
 @media (max-width: 700px) {
-	
+
 	.introduction .text .buttons {
 		width: calc(100% - 60px);
-		
-		
+
+
 
 	}
 
-	}
+}
