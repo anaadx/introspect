@@ -184,6 +184,34 @@
 	.introduction .text .buttons a {
 		width: 100%;
 	}
+
+	.cases .modalWrapper {
+		width: calc(100% - 40px);
+		margin: 0 auto;
+	}
+
+	.carousel-projects .item {
+		padding: 10px;
+		border-radius: 5px;
+	}
+
+	.cases .modalWrapper .carousel-projects {
+		width: calc(100% - 50px);
+	}
+
+	.closeImg {
+		top: -45px;
+		font-weight: 400;
+	}
+
+	.carousel-projects.owl-carousel .owl-nav.navWhite button.owl-next.disabled,
+	.carousel-projects.owl-carousel .owl-nav.navWhite button.owl-prev.disabled {
+		opacity: 40%;
+	}
+
+	.modalWrapper h4 {
+		display: none;
+	}
 }
 
 
@@ -191,9 +219,6 @@
 
 	.introduction .text .buttons {
 		width: calc(100% - 60px);
-
-
-
 	}
 
 }

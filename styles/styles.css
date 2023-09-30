@@ -3,12 +3,6 @@
 	margin-left: 8px;
 }
 
-.introduction {
-	overflow: hidden;
-	margin-bottom: 80px;
-	padding-top: 100px;
-}
-
 .introduction .text {
 	float: left;
 	width: calc(50% - 100px)
@@ -208,7 +202,12 @@ button:hover {
 	margin-top: 80px;
 	width: 100%;
 	padding: 0px 60px;
+}
 
+.introduction {
+	overflow: hidden;
+	margin-bottom: 80px;
+	padding-bottom: 10px;
 }
 
 .whyUs {
@@ -329,6 +328,7 @@ button:hover {
 .cases .card .content .title {
 	margin-bottom: 50px;
 	font-weight: bold;
+	line-height: 1.3em;
 }
 
 .cases .card .content .title h3 {
@@ -620,15 +620,82 @@ footer h4 a:hover {
 	left: 50%;
 	display: block;
 	position: absolute;
-	width: 500px;
+	width: 600px;
 }
 
 .carousel-projects .item {
 	padding: 20px;
+	transition: all 500ms;
 	width: 100%;
 	height: auto;
+	transform: scale(0.8);
 	border-radius: 10px;
 	background-color: black
+}
+
+.carousel-projects.owl-theme .owl-nav {
+	right: 0px;
+	top: -31px;
+	position: absolute;
+	left: 0px;
+	width: max-content;
+	overflow: hidden;
+}
+
+.carousel-projects.owl-carousel .owl-stage-outer {
+	overflow: visible;
+}
+
+.carousel-projects.owl-carousel .owl-nav span {
+	display: none;
+}
+
+.carousel-projects.owl-carousel .owl-nav button {
+	width: 10px;
+	height: 16px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.carousel-projects.owl-carousel .owl-nav.navWhite button.owl-next {
+	background-image: url(../assets/arrow-white-right.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	float: right;
+	background-size: auto
+}
+
+.carousel-projects.owl-carousel .owl-nav.navWhite button.owl-prev {
+	background-image: url(../assets/arrow-white-left.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+	margin-right: 10px;
+	background-size: auto
+}
+
+.whatsappIcon {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 80px;
+	height: 80px;
+	display: block;
+	background-image: url(../assets/whatsapp2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	border-radius: 50px;
+	z-index: 10;
+	transition: all 500ms;
+}
+
+.whatsappIcon:hover {
+	transform: scale(1.1);
+}
+
+.carousel-projects.owl-carousel.owl-drag .owl-item.active .item {
+	transform: scale(1);
 }
 
 .closeImg {
