@@ -32,11 +32,9 @@ $(document).ready(function () {
 			},
 			1024: {
 				items: 1,
-				nav: false,
 			},
 			1950: {
 				items: 1,
-				nav: false,
 			},
 		},
 	});

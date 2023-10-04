@@ -1,7 +1,29 @@
 @media (max-width: 1024px) {
 
+	.whatsappIcon {
+
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		width: 100px;
+		height:100px;
+		display: block;
+		background-image: url(../assets/whatsapp2.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center;
+		border-radius: 50px;
+		z-index: 10;
+		transition: all 200ms;
+	}
+	
+	.whatsappIcon:hover {
+		transform: scale(1.2);
+	}
+	
+
 	.main-logo {
-		margin-left: -12px;
+		margin-left: -8px;
 		height: 65px;
 		width: 65px;
 
