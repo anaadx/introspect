@@ -18,7 +18,7 @@ jobs:
           server: ftp://introspect.site
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./public
+          local-dir: ./public/
           remote-dir: /public_html
 
 
